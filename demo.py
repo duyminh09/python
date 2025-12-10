@@ -17,3 +17,4 @@ seq = arithmeticSequence(a1=2, d=3, n=5)
 
 print(seq.nth_term())
 print(seq.sum_n_term())
+#####
