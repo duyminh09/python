@@ -10,12 +10,18 @@ class arithmeticSequence:
     def sum_n_term(self):
         total = 0
         for i in range(self.n):
-            total = total + self.a1 + i * self.d 
+            total = total + self.a1 + i * self.d
         return total
         
-seq = arithmeticSequence(a1=2, d=3, n=5)
+def main():
+    seq = arithmeticSequence(a1=3, d=2, n=6)
+    
+    print(seq.nth_term())
+    print(seq.sum_n_term())
 
-print(seq.nth_term())
-print(seq.sum_n_term())
+
+if __name__ == "__main__":
+    main()
 #####abcduoiuoiuijjj123213oooooooooooo
+#123123123123
 #123123123123
