@@ -13,15 +13,7 @@ class arithmeticSequence:
             total = total + self.a1 + i * self.d
         return total
         
-def main():
-    seq = arithmeticSequence(a1=3, d=2, n=6)
-    
-    print(seq.nth_term())
-    print(seq.sum_n_term())
 
-
-if __name__ == "__main__":
-    main()
 #####abcduoiuoiuijjj123213oooooooooooo
 #123123123123
 #123123123123
